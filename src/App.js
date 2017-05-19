@@ -3,6 +3,7 @@ import { Parallax } from 'react-parallax'
 import logo from './logo.svg';
 import './App.css';
 import bgimg from './img/stockparallax.jpg';
+import Navbar from './components/navbar'
 
 class App extends Component {
   render() {
@@ -12,10 +13,10 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Header</h2>
         </div>
-        Nav Bar Here
+        <Navbar />
         <Parallax bgImage={bgimg} strength={250}>
           <div style={{height: 800}}>
-            <div style={{height: 200, paddingTop: 50, background: '#eee', width: 200}}>
+            <div style={{height: '15em', paddingTop: '3em', background: '#fff', width: '20em'}}>
               Latest Gigs
             </div>
           </div>
