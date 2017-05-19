@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import { Parallax } from 'react-parallax'
 import logo from './logo.svg';
 import './App.css';
+import bgimg from './img/stockparallax.jpg';
 
 class App extends Component {
   render() {
@@ -8,10 +10,19 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Header</h2>
         </div>
+        Nav Bar Here
+        <Parallax bgImage={bgimg} strength={250}>
+          <div style={{height: 800}}>
+            <div style={{height: 200, paddingTop: 50, background: '#eee', width: 200}}>
+              Latest Gigs
+            </div>
+          </div>
+        </Parallax>
+
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Copywrite Ransom Jones 2017
         </p>
       </div>
     );
