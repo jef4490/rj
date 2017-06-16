@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import bgimg from './img/RansomJonesLogo.jpg';
 import Navbar from './components/navbar'
+import Social from './components/social'
 
 class App extends Component {
   render() {
@@ -13,15 +14,16 @@ class App extends Component {
           <h1>Ransom Jones</h1>
           <h3>South East Michigan's Ultimate Classic Rock Party Band</h3>
         </div>
+        <Social />
         {/* <Navbar /> */}
         <Parallax bgImage={bgimg} strength={250}>
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <div style={{height: 1000}}>
+          <div style={{height: 1100, maxWidth: '100%'}}>
             <div style={{opacity: 0.7, paddingTop: '3em', marginLeft: '1em', background: '#fff', width: '30em', paddingBottom: '1em', borderRadius: '6px'}}>
               <h2>Upcoming Shows</h2>
               <ul style={{listStyleType: 'none'}}>
                 <li>
-                  <h4>Weber's Inn</h4>
+                  <h4><a target="_blank" href="http://www.webersinn.com/the-habitat">Weber's Inn</a></h4>
                     <ul style={{listStyleType: 'none'}}>
                       <li>
                         Saturday, July 1st - 9PM
@@ -64,10 +66,13 @@ class App extends Component {
                   </ul>
                 </li>
                 <li>
-                  <h4>Live</h4>
+                  <h4><a target="_blank" href="http://livea2.com/">Live</a></h4>
                   <ul style={{listStyleType: 'none'}}>
                     <li>
                       Friday, January 12th - 6PM
+                    </li>
+                    <li>
+                      102 S 1st St, Ann Arbor, MI 48104
                     </li>
                 </ul>
               </li>
@@ -79,7 +84,7 @@ class App extends Component {
 
         </Parallax>
 
-        <p className="App-intro">
+        <p className="App-intro" style={{fontSize: 12}}>
           &copy; Ransom Jones 2017
         </p>
       </div>
