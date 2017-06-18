@@ -53,14 +53,6 @@ class App extends Component {
                   <h4>Private Event</h4>
                   <ul style={{listStyleType: 'none'}}>
                     <li>
-                      Saturday, July 29th - 6PM
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <h4>Private Event</h4>
-                  <ul style={{listStyleType: 'none'}}>
-                    <li>
                       Saturday, October 28th - 8PM
                     </li>
                   </ul>
