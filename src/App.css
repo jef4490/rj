@@ -7,6 +7,10 @@
   height: 80px;
 }
 
+.navbar span {
+  margin: auto;
+  padding: 8em;
+}
 
 .App-header {
   background: rgb(28,189,182); /* For browsers that do not support gradients */
