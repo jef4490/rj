@@ -10,6 +10,7 @@ import './App.css';
 import bgimg from './img/RansomJonesLogo.jpg';
 import Navbar from './components/navbar'
 import Upcoming from './components/upcoming'
+import Contact from './components/contact'
 import Social from './components/social'
 
 
@@ -27,6 +28,7 @@ class App extends Component {
           <Parallax bgImage={bgimg} strength={250}>
             <div style={{height: 1100, maxWidth: '100%'}}>
               <Route exact path='/' component={Upcoming} />
+              <Route exact path='/contact' component={Contact} />
 
             </div>
           </Parallax>
