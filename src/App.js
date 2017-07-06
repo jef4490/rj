@@ -11,8 +11,20 @@ import bgimg from './img/RansomJonesLogo.jpg';
 import Navbar from './components/navbar'
 import Upcoming from './components/upcoming'
 import Contact from './components/contact'
+import Bio from './components/bio'
 import Social from './components/social'
 
+class Gigs extends Component {
+    render() {
+        return <Upcoming styleProp={{opacity: 0.7, paddingTop: '3em', marginLeft: '1em', background: '#fff', width: '30em', paddingBottom: '1em', borderRadius: '6px'}} />
+    }
+}
+
+class Shows extends Component {
+    render() {
+        return <Upcoming styleProp={{opacity: 0.7, paddingTop: '3em', margin: 'auto', background: '#fff', width: '50em', paddingBottom: '1em', borderRadius: '6px'}} />
+    }
+}
 
 class App extends Component {
   render() {
@@ -27,8 +39,10 @@ class App extends Component {
           <Social />
           <Parallax bgImage={bgimg} strength={250}>
             <div style={{height: 1100, maxWidth: '100%'}}>
-              <Route exact path='/' component={Upcoming} />
+              <Route exact path='/' component={Gigs} />
               <Route exact path='/contact' component={Contact} />
+              <Route exact path='/band' component={Bio} />
+              <Route exact path='/shows' component={Shows} />
 
             </div>
           </Parallax>

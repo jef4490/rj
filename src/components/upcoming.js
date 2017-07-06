@@ -1,21 +1,10 @@
 import React from 'react';
 
-const Upcoming = () => {
+const Upcoming = (props) => {
   return (
-      <div style={{opacity: 0.7, paddingTop: '3em', marginLeft: '1em', background: '#fff', width: '30em', paddingBottom: '1em', borderRadius: '6px'}}>
+      <div style={props.styleProp}>
         <h2>Upcoming Shows</h2>
         <ul style={{listStyleType: 'none'}}>
-          <li>
-            <h4><a target="_blank" href="http://www.webersinn.com/the-habitat">Weber's Inn</a></h4>
-              <ul style={{listStyleType: 'none'}}>
-                <li>
-                  Saturday, July 1st - 9PM
-                </li>
-                <li>
-                  3050 Jackson Rd, Ann Arbor, MI 48103
-                </li>
-              </ul>
-            </li>
             <li>
               <h4>Private Event</h4>
               <ul style={{listStyleType: 'none'}}>
