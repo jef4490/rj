@@ -72,3 +72,11 @@ a:hover {
 a:active {
     color: red;
 }
+
+.lineup span {
+  margin: .85em;
+}
+
+.lineup-member {
+  font-weight: bold;
+}

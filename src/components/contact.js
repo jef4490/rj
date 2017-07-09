@@ -2,7 +2,7 @@ import React from 'react';
 
 const Upcoming = () => {
   return (
-      <div style={{paddingTop: '1em', opacity: 0.7, paddingBottom: '2em', background: '#fff', top: '10em', position: 'relative', width: '40%', margin: 'auto', borderRadius: '6px'}}>
+      <div style={{paddingTop: '1em', opacity: 0.7, paddingBottom: '2em', background: '#fff', top: '8em', position: 'relative', width: '40%', margin: 'auto', borderRadius: '6px'}}>
         <p style={{fontSize: 18}}>For booking and all other inquiries:</p>
         <p>
           <ul style={{listStyleType: 'none'}}>
