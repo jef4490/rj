@@ -79,4 +79,34 @@ a:active {
 
 .lineup-member {
   font-weight: bold;
+  font-family: 'Antic Slab', serif;
+}
+
+#gig-list h4 {
+  margin-bottom: 5px;
+}
+
+.show-header {
+  text-align: right;
+  margin-right: 5em;
+}
+
+.show-header p,
+.show-header h4{
+  display: inline-block;
+}
+
+.show-header p{
+  float: left;
+  position: relative;
+  left: 80px;
+  top: 0px;
+  font-family: 'Antic Slab', serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.show-header ul {
+  list-style-type: none;
+  padding-left: 0;
 }

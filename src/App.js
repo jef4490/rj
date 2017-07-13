@@ -22,7 +22,7 @@ class Gigs extends Component {
 
 class Shows extends Component {
     render() {
-        return <Upcoming styleProp={{opacity: 0.7, paddingTop: '1em', margin: 'auto', background: '#fff', width: '50em', paddingBottom: '1em', borderRadius: '6px', marginTop: '8em'}} />
+        return <Upcoming styleProp={{opacity: 0.7, paddingTop: '1em', margin: 'auto', background: '#fff', width: '36em', paddingBottom: '1em', borderRadius: '6px', marginTop: '8em'}} />
     }
 }
 

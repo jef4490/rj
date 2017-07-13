@@ -8,7 +8,7 @@ const Upcoming = () => {
         </p>
         <br/>
         <p style={{fontSize: 18}}>
-          These guys have the chops and know-how to deliver the prime cut of rock & roll beef- medium rare, the way it’s supposed to be eaten. Formed in 2016, Ransom Jones has proven to be a titanic presence in the greater Ann Arbor circuit, playing at the best and most prodigious venues. With musicianship that would make the late Jimi Hendrix blush, a spectacle is a certainty. And do these boys sing? You bet your top dollar their sweet pipes will be on your mind long after the show’s over. So the only question left to be answered is, when are you going to next have the chance to see Ransom Jones?
+          These guys have the chops and know-how to deliver the prime cut of rock & roll beef– medium rare, the way it’s supposed to be eaten. Formed in 2016, Ransom Jones has proven to be a titanic presence in the greater Ann Arbor circuit, playing at the best and most prodigious venues. With musicianship that would make the late Jimi Hendrix blush, spectacle is a certainty. And do these boys sing? You bet your top dollar their sweet pipes will be on your mind long after the show’s over. So the only question left to be answered is, when are you going to next have the chance to see Ransom Jones?
         </p>
         <br/>
         <p style={{fontSize: '17'}} className="lineup">
