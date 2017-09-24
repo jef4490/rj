@@ -7,7 +7,7 @@ const Upcoming = (props) => {
         <ul style={{listStyleType: 'none', paddingLeft: 0}} id="gig-list">
 
           <li className="show-header">
-              <p>08.14.17</p>
+              <p>10.14.17</p>
               <h4><a target="_blank" href="http://www.hellsaloon.com/">Hell Saloon</a></h4>
             <ul>
               <li>
