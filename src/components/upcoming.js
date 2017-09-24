@@ -5,27 +5,6 @@ const Upcoming = (props) => {
       <div style={props.styleProp}>
         <h2>Upcoming Shows</h2>
         <ul style={{listStyleType: 'none', paddingLeft: 0}} id="gig-list">
-          <li className="show-header">
-            <p>07.29.17</p>
-            <h4>Private Event</h4>
-            <ul>
-              <li>
-                – 6:00PM
-              </li>
-            </ul>
-          </li>
-
-
-          <li className="show-header">
-            <p>09.02.17</p>
-            <h4>Private Event</h4>
-            <ul>
-              <li>
-                – 1:00 PM
-              </li>
-            </ul>
-          </li>
-
 
           <li className="show-header">
               <p>08.14.17</p>
@@ -70,6 +49,21 @@ const Upcoming = (props) => {
             </ul>
           </li>
 
+          <li className="show-header">
+            <p>12.02.17</p>
+            <h4><a target="_blank" href="http://www.zukeylaketavern.com/">Zukey Lake Tavern</a></h4>
+            <ul>
+              <li>
+                – 8:00 PM
+              </li>
+              <li>
+                5011 Girard Dr
+              </li>
+              <li>
+                Pinckney, MI 48169
+              </li>
+            </ul>
+          </li>
 
         <li className="show-header">
           <p>12.08.17</p>
