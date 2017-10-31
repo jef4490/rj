@@ -2,7 +2,8 @@ import React from 'react';
 
 const Upcoming = () => {
   return (
-      <div style={{paddingTop: '1em', opacity: 0.7, paddingBottom: '2em', background: '#fff', top: '8em', position: 'relative', width: '40%', margin: 'auto', borderRadius: '6px'}}>
+    <div>
+      <div style={{paddingTop: '1em', opacity: 0.7, paddingBottom: '2em', background: '#fff', top: '8em', position: 'relative', width: '30%', margin: 'auto', borderRadius: '6px', display: 'inline-block'}}>
         <p style={{fontSize: 18}}>For booking and all other inquiries:</p>
         <p>
           <ul style={{listStyleType: 'none'}}>
@@ -22,7 +23,12 @@ const Upcoming = () => {
             <li><a href="https://www.reverbnation.com/ransomjones6" target="_blank">ReverbNation</a></li>
           </ul>
         </p>
+    </div>
+
+      <div style={{marginLeft: '2em', paddingTop: '1em', paddingBottom: '2em', background: '#fff', top: '15em', position: 'relative', width: '55%', borderRadius: '6px', display: 'inline-block'}}>
+        <img src={require("../img/rjdrumhead.jpg")} style={{width: '95%'}}/>
       </div>
+    </div>
   )
 }
 

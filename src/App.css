@@ -9,7 +9,7 @@
 
 .navbar span {
   margin: auto;
-  padding: 8em;
+  padding: 6.5em;
 }
 
 .App-header {
@@ -109,4 +109,25 @@ a:active {
 .show-header ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+h4.songDisplay {
+  display: inline-block;
+  float: left;
+  margin: .5em 0em;
+}
+
+h4.artistDisplay {
+  display: inline-block;
+  float: right;
+  margin: .5em 0em;
 }

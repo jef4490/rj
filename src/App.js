@@ -11,6 +11,7 @@ import bgimg from './img/RansomJonesLogo.jpg';
 import Navbar from './components/navbar'
 import Upcoming from './components/upcoming'
 import Contact from './components/contact'
+import Songs from './components/songs'
 import Bio from './components/bio'
 import Social from './components/social'
 
@@ -43,6 +44,7 @@ class App extends Component {
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/band' component={Bio} />
               <Route exact path='/shows' component={Shows} />
+              <Route exact path='/songs' component={Songs} />
 
             </div>
           </Parallax>
