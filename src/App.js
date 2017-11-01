@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Parallax } from 'react-parallax'
 import logo from './logo.svg';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Link
 } from 'react-router-dom'
