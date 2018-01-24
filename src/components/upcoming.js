@@ -4,10 +4,25 @@ const Upcoming = (props) => {
   return (
       <div style={props.styleProp}>
         <h2>Upcoming Shows</h2>
-        <ul style={{listStyleType: 'none', paddingLeft: 0}} id="gig-list">
+        <ul style={{listStyleType: 'none'}}>
+          <li className="show-header">
+            <p>01.26.18</p>
+            <h4><a target="_blank" href="http://www.zukeylaketavern.com/">Zukey Lake Tavern</a></h4>
+            <ul>
+              <li>
+                – 8:00 PM
+              </li>
+              <li>
+                5011 Girard Dr
+              </li>
+              <li>
+                Pinckney, MI 48169
+              </li>
+            </ul>
+          </li>
 
           <li className="show-header">
-            <p>11.11.17</p>
+            <p>03.17.18</p>
             <h4><a target="_blank" href="http://www.hellsaloon.com/">Hell Saloon</a></h4>
             <ul>
               <li>
@@ -23,7 +38,7 @@ const Upcoming = (props) => {
           </li>
 
           <li className="show-header">
-            <p>12.02.17</p>
+            <p>04.21.18</p>
             <h4><a target="_blank" href="http://www.zukeylaketavern.com/">Zukey Lake Tavern</a></h4>
             <ul>
               <li>
@@ -38,8 +53,9 @@ const Upcoming = (props) => {
             </ul>
           </li>
 
+
         <li className="show-header">
-          <p>12.08.17</p>
+          <p>05.05.18</p>
           <h4><a target="_blank" href="http://www.hellsaloon.com/">Hell Saloon</a></h4>
           <ul>
             <li>
@@ -54,25 +70,8 @@ const Upcoming = (props) => {
           </ul>
         </li>
 
-
-      <li className="show-header">
-        <p>01.12.18</p>
-        <h4><a target="_blank" href="http://livea2.com/">Live</a></h4>
-        <ul>
-          <li>
-            – 6:00 PM
-          </li>
-          <li>
-            102 S 1st St.
-          </li>
-          <li>
-            Ann Arbor, MI 48104
-          </li>
       </ul>
-    </li>
-
-    </ul>
-  </div>
+    </div>
 
   )
 }
