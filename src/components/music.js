@@ -10,7 +10,6 @@ import {SetList} from '../constants/setlist'
 class Music extends Component {
 
   componentWillUnmount(){
-    debugger
     ReactDOM.findDOMNode(this.audioComponent).dispatchEvent(new Event('audio-pause'));
   }
 
@@ -29,8 +28,8 @@ class Music extends Component {
       src: "../music/01 Uptown Funk.mp3"
     },
     {
-      name: "Gimmie Some Lovin", // song name
-      src: "../music/04 Gimmie Some Lovin.mp3"
+      name: "Gimme Some Lovin", // song name
+      src: "../music/04 Gimme Some Lovin.mp3"
     }
     ];
     return (
