@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^15.6.2",
+    "react-audioplayer": "^0.3.1",
     "react-dom": "^15.6.2",
     "react-fontawesome": "^1.6.1",
     "react-icons": "^2.2.7",

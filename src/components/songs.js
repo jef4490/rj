@@ -5,7 +5,7 @@ import {
 
 import {SetList} from '../constants/setlist'
 
-const Upcoming = () => {
+const Songs = () => {
 
   var setListFormatted = SetList.map((songsPairing) => {
     if(songsPairing[0] == "Song"){
@@ -32,4 +32,4 @@ const Upcoming = () => {
   )
 }
 
-export default Upcoming
+export default Songs
