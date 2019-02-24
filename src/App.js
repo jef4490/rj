@@ -6,6 +6,10 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
 import './App.css';
 import bgimg from './img/RansomJonesLogo.jpg';
 import Navbar from './components/navbar'
@@ -32,26 +36,43 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
-          <div className="App-header">
-            <Navbar />
-            <h1>Ransom Jones</h1>
-            <h3>South East Michigan's Ultimate Classic Rock Party Band</h3>
-          </div>
-          <Social />
-          <Parallax bgImage={bgimg} strength={250}>
-            <div style={{height: 1100, maxWidth: '100%'}}>
-              <Route exact path='/' component={Gigs} />
-              <Route exact path='/contact' component={Contact} />
-              <Route exact path='/band' component={Bio} />
-              <Route exact path='/music' component={Music} />
-              <Route exact path='/songs' component={Songs} />
+        <Container className="App">
+          <Row>
+            <div>
+              <Navbar />
             </div>
-          </Parallax>
-          <p className="App-intro" style={{fontSize: 12}}>
-            &copy; Ransom Jones 2018
-          </p>
-        </div>
+            <Social />
+          </Row>
+          <Row style={{background: "#ddd"}}>
+
+            <Col>
+              <span>
+                LEFT
+              </span>
+            </Col>
+
+            <Col>
+              <div>
+                <Route exact path='/' component={Gigs} />
+                <Route exact path='/contact' component={Contact} />
+                <Route exact path='/band' component={Bio} />
+                <Route exact path='/music' component={Music} />
+                <Route exact path='/songs' component={Songs} />
+              </div>
+            </Col>
+
+            <Col>
+              <span>
+                RIGHT
+              </span>
+            </Col>
+          </Row>
+          <Row>
+            <p className="App-intro" style={{fontSize: 12}}>
+              &copy; Ransom Jones 2019
+            </p>
+          </Row>
+        </Container>
       </Router>
     );
   }

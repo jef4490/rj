@@ -10,7 +10,7 @@ import {SetList} from '../constants/setlist'
 class Music extends Component {
 
   componentWillUnmount(){
-    ReactDOM.findDOMNode(this.audioComponent).dispatchEvent(new Event('audio-pause'));
+    //ReactDOM.findDOMNode(this.audioComponent).dispatchEvent(new Event('audio-pause'));
   }
 
   render() {
@@ -34,10 +34,12 @@ class Music extends Component {
     ];
     return (
       <div style={{margin: 'auto', width: "30%", marginTop: "5em"}}>
-      <Audio playlist={playList} ref={audioComponent => { this.audioComponent = audioComponent; }}></Audio>
+
       </div>
     );
   }
 }
+
+//<Audio playlist={playList} ref={audioComponent => { this.audioComponent = audioComponent; }}></Audio>
 
 export default Music
