@@ -14,6 +14,27 @@ h1 {
   font-family: 'Antic Slab', serif;
 }
 
+.properties-grid {
+  width: 100%;
+  margin: 0 auto;
+  background-color: yellow;
+}
+
+.properties-row {
+  flex-wrap: wrap;
+  display: inline-flex;
+  background-color: red;
+  margin: 2em auto;
+  width: 100%;
+}
+
+.property-thumbnail {
+  margin: 2em auto;
+  background-color: green;
+  display: table-cell;
+  max-width: 450px;
+}
+
 .App-intro {
   font-size: large;
 }

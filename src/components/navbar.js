@@ -10,30 +10,31 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <Container>
-        <Row>
-          <Col xs><Link to="/">Home</Link></Col>
-          <Col xs><Link to="/band">Band</Link></Col>
-          <Col xs><Link to="/music">Music</Link></Col>
-          <Col xs><Link to="/songs">Songs</Link></Col>
-          <Col xs><Link to="/contact">Contact</Link></Col>
+        <Row className="property-row">
+          <Col>
+            <h1 style={{marginTop: "0em"}}>Ransom Jones</h1>
+          </Col>
         </Row>
-        <div style={{width: "100%"}}>
+        <div style={{width: "100%"}} className="force-line-break">
         </div>
-        <Row>
-          <Col xs>
-            <h1>Ransom Jones</h1>
+        <Row className="property-row">
+          <Col>
+            <h5>South East Michigan's Ultimate Classic Rock Party Band</h5>
           </Col>
         </Row>
         <div style={{width: "100%"}}>
         </div>
         <Row>
-          <Col xs>
-            <h3>South East Michigan's Ultimate Classic Rock Party Band</h3>
-          </Col>
+          <Col><Link to="/">Home</Link></Col>
+          <Col><Link to="/band">Band</Link></Col>
+          <Col><Link to="/music">Music</Link></Col>
+          <Col><Link to="/songs">Songs</Link></Col>
+          <Col><Link to="/contact">Contact</Link></Col>
         </Row>
       </Container>
     </div>
   )
 }
+
 
 export default NavBar
