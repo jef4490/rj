@@ -1,4 +1,4 @@
-.App {
+ .App {
   text-align: center;
 }
 
@@ -7,27 +7,32 @@
   height: 80px;
 }
 
-.navbar span {
-  margin: auto;
-  padding: 6.5em;
-}
-
-.App-header {
-  background: rgb(28,189,182); /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, rgb(28,189,182), rgb(55,184,232)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, rgb(28,189,182), rgb(55,184,232)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, rgb(28,189,182), rgb(55,184,232)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, rgb(28,189,182), rgb(55,184,232)); /* Standard syntax */
-  height: 130px;
-  padding: 20px;
-  color: black;
-}
-
 h1 {
   font-size: 3.5em;
   margin-bottom: .25em;
   margin-top: .25em;
   font-family: 'Antic Slab', serif;
+}
+
+.properties-grid {
+  width: 100%;
+  margin: 0 auto;
+  background-color: yellow;
+}
+
+.properties-row {
+  flex-wrap: wrap;
+  display: inline-flex;
+  background-color: red;
+  margin: 2em auto;
+  width: 100%;
+}
+
+.property-thumbnail {
+  margin: 2em auto;
+  background-color: green;
+  display: table-cell;
+  max-width: 450px;
 }
 
 .App-intro {
@@ -43,11 +48,6 @@ h1 {
 
 .icon {
   font-size: 1.35em;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 
 /* unvisited link */
@@ -66,6 +66,14 @@ a:visited {
 a:hover {
     color: black;
     text-decoration: underline;
+}
+
+.navbar {
+  background: #eee
+}
+
+.navbar span {
+  margin: auto;
 }
 
 /* selected link */
