@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <Router>
         <Container className="App">
-            <div>
+            <div class="app-header">
               <h1>Ransom Jones</h1>
             </div>
             <div>

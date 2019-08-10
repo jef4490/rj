@@ -7,6 +7,11 @@
   height: 80px;
 }
 
+.app-header {
+  background: rgb(28,189,182);
+  padding-bottom: .25em;
+}
+
 h1 {
   font-size: 3.5em;
   margin-bottom: .25em;
