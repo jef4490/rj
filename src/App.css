@@ -11,6 +11,7 @@
   background: rgb(28,189,182);
   padding-bottom: .25em;
   text-align: center;
+  padding-top: 2em;
 }
 
 
@@ -149,13 +150,55 @@ a:active {
 }
 
 h4.songDisplay {
-  display: inline-block;
+  /* display: inline-block;
   float: left;
-  margin: .5em 0em;
+  margin: .5em 0em; */
+  display: flex;
+  text-align: left;
 }
 
 h4.artistDisplay {
-  display: inline-block;
+  /* display: inline-block;
   float: right;
-  margin: .5em 0em;
+  margin: .5em 0em; */
+  display: flex;
+  text-align: right;    
 }
+
+.song-entry {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: .5em;
+}
+
+.song-entry-spacer {
+  flex: 1 0 10px;
+}
+
+
+/* ------------- Media Queries ------------- */
+
+@media only screen and (min-width: 600px) {
+  .app-header {
+    padding-top: 0em;
+  }
+
+  #gig-container {
+    min-width: 30em;
+  }
+
+  #bio-container {
+    min-width: 30em;
+  }
+
+  #songs-container {
+    min-width: 30em;
+  }
+}
+
+/* @media only screen and (max-width: 600px) {
+  .song-entry {
+    background: #ddd;
+  }
+} */

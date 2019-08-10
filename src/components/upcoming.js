@@ -31,7 +31,7 @@ const Upcoming = (props) => {
   }
 
   return (
-      <div style={props.styleProp}>
+      <div id="gig-container" style={props.styleProp}>
         <h2>Upcoming Shows</h2>
         <ul style={{listStyleType: 'none'}}>
 
