@@ -176,6 +176,15 @@ h4.artistDisplay {
   flex: 1 0 10px;
 }
 
+#song-header-container{
+  justify-content: space-around;
+}
+
+.song-header {
+  display: inline-block;
+  text-decoration: underline;
+}
+
 
 /* ------------- Media Queries ------------- */
 
