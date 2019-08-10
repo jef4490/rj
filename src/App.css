@@ -1,4 +1,4 @@
- .App {
+.App {
   text-align: center;
 }
 
@@ -10,6 +10,18 @@
 .app-header {
   background: rgb(28,189,182);
   padding-bottom: .25em;
+  text-align: center;
+}
+
+
+.highlight-route{
+  border-bottom: 2px solid rgb(28,189,182);
+  padding: 0 5px 2px 5px;
+}
+
+.unhighlighted-route:hover{
+  border-bottom: 2px solid rgb(28,189,182);
+  padding: 0 5px 2px 5px;
 }
 
 h1 {
@@ -80,6 +92,7 @@ a:hover {
 
 .navbar span {
   margin: auto;
+  padding: 0 5px 0 5px;
 }
 
 /* selected link */

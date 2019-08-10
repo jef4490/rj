@@ -1,19 +1,33 @@
 import React from 'react';
 import {
-  Link
+  Link, withRouter
 } from 'react-router-dom'
 
-{/* <span><Link to="/band">Band</Link></span>
-      <span><Link to="/music">Music</Link></span>
-      <span><Link to="/songs">Songs</Link></span>
-      <span><Link to="/contact">Contact</Link></span> */}
-const NavBar = () => {
+const NavBar = (props) => {
+  let links = [
+    {route: '/', label: 'Home'},
+    {route: '/songs', label: 'Songs'},
+    // {route: '/music', label: 'Music'},
+    {route: '/band', label: 'Band'},
+    {route: '/contact', label: 'Contact'},
+  ];
+
+  let formatedLinks = links.map((link, idx) => {
+    let className = 'unhighlighted-route';
+    if(props.location.pathname === link.route){
+      className = 'highlight-route';
+    }
+    return (
+      <span key={idx}>
+        <Link to={link.route} className={className}>{link.label}</Link>
+      </span>
+    )
+  })
   return (
     <div className="navbar">
-      <span><Link to="/">Home</Link></span>
-      <span><Link to="/contact">Contact</Link></span>
+      {formatedLinks}
     </div>
   )
 }
 
-export default NavBar
+export default withRouter(NavBar)

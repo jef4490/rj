@@ -22,7 +22,7 @@ import Social from './components/social'
 
 class Gigs extends Component {
     render() {
-        return <Upcoming styleProp={{opacity: 0.7, paddingTop: '1em', marginLeft: '1em', background: '#fff', width: '30em', paddingBottom: '1em', borderRadius: '6px'}} />
+        return <Upcoming styleProp={{opacity: 0.7, paddingTop: '1em', marginLeft: '1em', background: '#fff', minWidth: '30em', paddingBottom: '1em', borderRadius: '6px'}} />
     }
 }
 
@@ -36,10 +36,12 @@ class App extends Component {
   render() {
     return (
       <Router>
+        <div>
+        <div class="app-header">
+          <h1 style={{marginTop: '0em'}}>Ransom Jones</h1>
+          <h4>Southeast Michigan's Classic Rock Party Band</h4>
+        </div>
         <Container className="App">
-            <div class="app-header">
-              <h1>Ransom Jones</h1>
-            </div>
             <div>
               <Navbar />
             </div>
@@ -70,6 +72,7 @@ class App extends Component {
             </p>
           </Row>
         </Container>
+        </div>
       </Router>
     );
   }

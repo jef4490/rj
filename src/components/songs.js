@@ -18,14 +18,14 @@ const Songs = () => {
 
   return (
     <div>
-      <div style={{padding: '1em', opacity: 0.7, background: '#fff', position: 'relative', width: '50%', margin: 'auto', borderRadius: '6px', marginTop: '8em'}}>
+      <div style={{padding: '1em', opacity: 0.7, background: '#fff', position: 'relative', minWidth: '30em', margin: 'auto', borderRadius: '6px', marginTop: '8em'}}>
         <h2>Repertoire</h2>
         <br/>
         <p style={{fontSize: 18}}>
           We play music through the decades. Here is a sample of song of the songs we know. <Link to='/contact'>Contact us</Link> for special requests!
         </p>
       </div>
-      <div style={{padding: '1em', opacity: 0.7, background: '#fff', position: 'relative', width: '50%', margin: 'auto', borderRadius: '6px', marginTop: '3em'}}>
+      <div style={{padding: '1em', opacity: 0.7, background: '#fff', position: 'relative', minWidth: '30em', margin: 'auto', borderRadius: '6px', marginTop: '3em'}}>
         {setListFormatted}
       </div>
     </div>
