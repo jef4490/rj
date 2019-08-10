@@ -30,8 +30,9 @@ const _venueRenderer = (gig) => {
 }
 
 const dateFilterer = (gig) => {
+  const sanitizedDate = gig.date.replace(/\./g, "/");
   //Filter out old gigs
-  return new Date(gig.date) > new Date();
+  return new Date(sanitizedDate) > new Date();
 }
 
 export const Gigs = [

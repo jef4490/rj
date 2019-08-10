@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-        <div class="app-header">
+        <div className="app-header">
           <h1 style={{marginTop: '0em'}}>Ransom Jones</h1>
           <h4>Southeast Michigan's Classic Rock Party Band</h4>
         </div>
