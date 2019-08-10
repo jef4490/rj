@@ -2,11 +2,11 @@ import React from 'react';
 
 const Upcoming = () => {
   return (
-    <div>
-      <div style={{paddingTop: '1em', opacity: 0.7, paddingBottom: '2em', background: '#fff', top: '8em', position: 'relative', width: '30%', margin: 'auto', borderRadius: '6px', display: 'inline-block'}}>
+    <div style={{display: 'flex', flexDirection: 'column'}}>
+      <div style={{paddingTop: '1em', opacity: 0.7, paddingBottom: '2em', background: '#fff', position: 'relative', width: '100%', margin: 'auto', borderRadius: '6px', display: 'inline-block'}}>
         <p style={{fontSize: 18}}>For booking and all other inquiries:</p>
         <p>
-          <ul style={{listStyleType: 'none'}}>
+          <ul style={{listStyleType: 'none', paddingInlineStart: '0px'}}>
             <h3>Jim Dana</h3>
             <li><a href="tel:1-734-489-5611">(734) 489-5611</a></li>
             <br/>
@@ -14,7 +14,7 @@ const Upcoming = () => {
           </ul>
         </p>
         <p>
-          <ul style={{listStyleType: 'none', marginTop: '4em'}}>
+          <ul style={{listStyleType: 'none', marginTop: '2em', paddingInlineStart: '0px'}}>
             <h3>Social Media</h3>
             <li><a href="https://www.facebook.com/RansomJonesBand/" target="_blank">Facebook</a></li>
             <br/>
@@ -25,7 +25,7 @@ const Upcoming = () => {
         </p>
     </div>
 
-      <div style={{marginLeft: '2em', paddingTop: '1em', paddingBottom: '2em', background: '#fff', top: '15em', position: 'relative', width: '55%', borderRadius: '6px', display: 'inline-block'}}>
+      <div>
         <img src={require("../img/rjdrumhead.jpg")} style={{width: '95%'}}/>
       </div>
     </div>

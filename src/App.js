@@ -37,18 +37,17 @@ class App extends Component {
     return (
       <Router>
         <Container className="App">
-          <Row>
+            <div>
+              <h1>Ransom Jones</h1>
+            </div>
             <div>
               <Navbar />
             </div>
             <Social />
-          </Row>
-          <Row style={{background: "#ddd"}}>
+          <Row>
 
             <Col>
-              <span>
-                LEFT
-              </span>
+
             </Col>
 
             <Col>
@@ -62,9 +61,7 @@ class App extends Component {
             </Col>
 
             <Col>
-              <span>
-                RIGHT
-              </span>
+
             </Col>
           </Row>
           <Row>

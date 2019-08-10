@@ -69,7 +69,8 @@ a:hover {
 }
 
 .navbar {
-  background: #eee
+  margin: auto;
+  max-width: 490px;
 }
 
 .navbar span {
@@ -97,6 +98,7 @@ a:active {
 .show-header {
   text-align: right;
   margin-right: 5em;
+  margin-top: 1em;
 }
 
 .show-header p,
@@ -107,7 +109,7 @@ a:active {
 .show-header p{
   float: left;
   position: relative;
-  left: 80px;
+  /* left: 80px; */
   top: 0px;
   font-family: 'Antic Slab', serif;
   font-weight: bold;
