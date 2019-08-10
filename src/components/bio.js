@@ -2,7 +2,7 @@ import React from 'react';
 
 const Upcoming = () => {
   return (
-      <div style={{padding: '1em', opacity: 0.7, background: '#fff', position: 'relative', width: '50%', margin: 'auto', borderRadius: '6px', marginTop: '8em'}}>
+      <div style={{minWidth: '30em', opacity: 0.7, background: '#fff', position: 'relative', width: '100%', margin: 'auto', borderRadius: '6px', marginTop: '1em'}}>
         <p style={{fontSize: 18}}>
           Ransom Jones is the hottest more-than-classic rock, party-centric, guaranteed-good-time, funky-fresh quartet in southeast Michigan. They don’t just bring the party, the party waits in line for hours to get a seat in the front row. With a setlist that spans literal decades, you never know what’s coming next- only that it’s going to be the perfect song choice, every. single. time.
         </p>
@@ -13,11 +13,9 @@ const Upcoming = () => {
         <br/>
         <p style={{fontSize: '17'}} className="lineup">
           <span className="lineup-member">Jim Dana</span>
-          <span>-</span>
           <span className="lineup-member">Chuck Mangus</span>
-          <span>-</span>
+          <br/>
           <span className="lineup-member">Jeff Hechler</span>
-          <span>-</span>
          <span className="lineup-member">Jeff Salter</span>
         </p>
       </div>

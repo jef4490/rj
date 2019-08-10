@@ -1,10 +1,27 @@
- .App {
+.App {
   text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+}
+
+.app-header {
+  background: rgb(28,189,182);
+  padding-bottom: .25em;
+  text-align: center;
+}
+
+
+.highlight-route{
+  border-bottom: 2px solid rgb(28,189,182);
+  padding: 0 5px 2px 5px;
+}
+
+.unhighlighted-route:hover{
+  border-bottom: 2px solid rgb(28,189,182);
+  padding: 0 5px 2px 5px;
 }
 
 h1 {
@@ -69,11 +86,13 @@ a:hover {
 }
 
 .navbar {
-  background: #eee
+  margin: auto;
+  max-width: 490px;
 }
 
 .navbar span {
   margin: auto;
+  padding: 0 5px 0 5px;
 }
 
 /* selected link */
@@ -97,6 +116,7 @@ a:active {
 .show-header {
   text-align: right;
   margin-right: 5em;
+  margin-top: 1em;
 }
 
 .show-header p,
@@ -107,7 +127,7 @@ a:active {
 .show-header p{
   float: left;
   position: relative;
-  left: 80px;
+  /* left: 80px; */
   top: 0px;
   font-family: 'Antic Slab', serif;
   font-weight: bold;
