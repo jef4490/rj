@@ -18,7 +18,7 @@ const Songs = () => {
 
   return (
     <div>
-      <div style={{padding: '1em', opacity: 0.7, background: '#fff', position: 'relative', minWidth: '30em', margin: 'auto', borderRadius: '6px', marginTop: '8em'}}>
+      <div style={{padding: '1em', opacity: 0.7, background: '#fff', position: 'relative', minWidth: '30em', margin: 'auto', borderRadius: '6px'}}>
         <h2>Repertoire</h2>
         <br/>
         <p style={{fontSize: 18}}>
