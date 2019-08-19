@@ -3,7 +3,7 @@ import React from 'react';
 const Upcoming = () => {
   return (
     <div style={{display: 'flex', flexDirection: 'column'}}>
-      <div style={{paddingTop: '1em', opacity: 0.7, paddingBottom: '2em', background: '#fff', position: 'relative', minWidth: '30em', margin: 'auto', borderRadius: '6px', display: 'inline-block'}}>
+      <div style={{paddingTop: '1em', opacity: 0.7, paddingBottom: '2em', background: '#fff', position: 'relative', margin: 'auto', borderRadius: '6px', display: 'inline-block'}}>
         <p style={{fontSize: 18}}>For booking and all other inquiries:</p>
         <p>
           <ul style={{listStyleType: 'none', paddingInlineStart: '0px'}}>
