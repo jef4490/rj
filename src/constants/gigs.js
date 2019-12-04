@@ -59,10 +59,6 @@ export const Gigs = [
     venue: "Hell Saloon",
     date: "10.26.19",
   },
-  {
-    venue: "Hell Saloon",
-    date: "12.07.19",
-  }
 ].filter(dateFilterer).map(gig => Object.assign(_venueRenderer(gig), gig));
 
 

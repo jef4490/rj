@@ -26,7 +26,7 @@ const Upcoming = (props) => {
 
   if(!Gigs.length) {
     formattedGigs = (
-      <h5 style={{marginTop: '2em'}}>Sorry, no gigs booked at this time!</h5>
+      <h5 style={{marginTop: '2em'}}>Sorry, nothing announced at this time! <br/>Check back for updates as we have them.</h5>
     )
   }
 
